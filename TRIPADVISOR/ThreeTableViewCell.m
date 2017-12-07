@@ -1,15 +1,14 @@
 //
-//  TwoTableViewCell.m
+//  ThreeTableViewCell.m
 //  TRIPADVISOR
 //
 //  Created by Jiahui Qi on 2017/12/7.
 //  Copyright © 2017年 University of Leeds. All rights reserved.
 //
 
+#import "ThreeTableViewCell.h"
 
-#import "TwoTableViewCell.h"
-
-@implementation TwoTableViewCell
+@implementation ThreeTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

@@ -10,9 +10,9 @@
 		9E8A59911FD8C1C400774875 /* TwoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A59901FD8C1C400774875 /* TwoCollectionViewCell.m */; };
 		9E8A59941FD8C1ED00774875 /* TwoCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A59931FD8C1ED00774875 /* TwoCollectionReusableView.m */; };
 		9E8A59971FD8C22500774875 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A59961FD8C22500774875 /* TwoViewController.m */; };
-		9E8A599A1FD8C24A00774875 /* TwoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A59991FD8C24A00774875 /* TwoTableViewController.m */; };
 		9E8A599D1FD8C27100774875 /* ThreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A599C1FD8C27100774875 /* ThreeTableViewController.m */; };
-		9E8A59A01FD8C37200774875 /* TwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A599F1FD8C37200774875 /* TwoTableViewCell.m */; };
+		9E9CBC981FD9CD3800625A8E /* ThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CBC971FD9CD3800625A8E /* ThreeTableViewCell.m */; };
+		9E9CBC9B1FD9D24B00625A8E /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CBC9A1FD9D24B00625A8E /* FourViewController.m */; };
 		9EA890DD1FC5F3BD0031BC2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA890DC1FC5F3BD0031BC2E /* AppDelegate.m */; };
 		9EA890E01FC5F3BD0031BC2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA890DF1FC5F3BD0031BC2E /* ViewController.m */; };
 		9EA890E31FC5F3BD0031BC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA890E11FC5F3BD0031BC2E /* Main.storyboard */; };
@@ -47,12 +47,12 @@
 		9E8A59931FD8C1ED00774875 /* TwoCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoCollectionReusableView.m; sourceTree = "<group>"; };
 		9E8A59951FD8C22500774875 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
 		9E8A59961FD8C22500774875 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
-		9E8A59981FD8C24A00774875 /* TwoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoTableViewController.h; sourceTree = "<group>"; };
-		9E8A59991FD8C24A00774875 /* TwoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewController.m; sourceTree = "<group>"; };
 		9E8A599B1FD8C27100774875 /* ThreeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeTableViewController.h; sourceTree = "<group>"; };
 		9E8A599C1FD8C27100774875 /* ThreeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeTableViewController.m; sourceTree = "<group>"; };
-		9E8A599E1FD8C37200774875 /* TwoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoTableViewCell.h; sourceTree = "<group>"; };
-		9E8A599F1FD8C37200774875 /* TwoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoTableViewCell.m; sourceTree = "<group>"; };
+		9E9CBC961FD9CD3800625A8E /* ThreeTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeTableViewCell.h; sourceTree = "<group>"; };
+		9E9CBC971FD9CD3800625A8E /* ThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeTableViewCell.m; sourceTree = "<group>"; };
+		9E9CBC991FD9D24B00625A8E /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		9E9CBC9A1FD9D24B00625A8E /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		9EA890D81FC5F3BD0031BC2E /* TRIPADVISOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRIPADVISOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA890DB1FC5F3BD0031BC2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EA890DC1FC5F3BD0031BC2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -129,12 +129,12 @@
 				9E8A59931FD8C1ED00774875 /* TwoCollectionReusableView.m */,
 				9E8A59951FD8C22500774875 /* TwoViewController.h */,
 				9E8A59961FD8C22500774875 /* TwoViewController.m */,
-				9E8A59981FD8C24A00774875 /* TwoTableViewController.h */,
-				9E8A59991FD8C24A00774875 /* TwoTableViewController.m */,
+				9E9CBC961FD9CD3800625A8E /* ThreeTableViewCell.h */,
+				9E9CBC971FD9CD3800625A8E /* ThreeTableViewCell.m */,
 				9E8A599B1FD8C27100774875 /* ThreeTableViewController.h */,
-				9E8A599E1FD8C37200774875 /* TwoTableViewCell.h */,
-				9E8A599F1FD8C37200774875 /* TwoTableViewCell.m */,
 				9E8A599C1FD8C27100774875 /* ThreeTableViewController.m */,
+				9E9CBC991FD9D24B00625A8E /* FourViewController.h */,
+				9E9CBC9A1FD9D24B00625A8E /* FourViewController.m */,
 				9EA890E11FC5F3BD0031BC2E /* Main.storyboard */,
 				9EA890E41FC5F3BD0031BC2E /* Assets.xcassets */,
 				9EA890E61FC5F3BD0031BC2E /* LaunchScreen.storyboard */,
@@ -295,14 +295,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E8A599A1FD8C24A00774875 /* TwoTableViewController.m in Sources */,
 				9EA890E01FC5F3BD0031BC2E /* ViewController.m in Sources */,
 				9EA890EB1FC5F3BD0031BC2E /* main.m in Sources */,
 				9E8A59941FD8C1ED00774875 /* TwoCollectionReusableView.m in Sources */,
+				9E9CBC9B1FD9D24B00625A8E /* FourViewController.m in Sources */,
 				9E8A599D1FD8C27100774875 /* ThreeTableViewController.m in Sources */,
 				9E8A59971FD8C22500774875 /* TwoViewController.m in Sources */,
+				9E9CBC981FD9CD3800625A8E /* ThreeTableViewCell.m in Sources */,
 				9EA890DD1FC5F3BD0031BC2E /* AppDelegate.m in Sources */,
-				9E8A59A01FD8C37200774875 /* TwoTableViewCell.m in Sources */,
 				9E8A59911FD8C1C400774875 /* TwoCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

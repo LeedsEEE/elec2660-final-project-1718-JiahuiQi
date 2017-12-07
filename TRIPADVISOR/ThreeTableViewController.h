@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ThreeTableViewController : UITableViewController
+@property (nonatomic,strong)NSString *country;
 
 @end
+

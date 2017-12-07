@@ -1,5 +1,5 @@
 //
-//  TwoTableViewController.h
+//  FourViewController.h
 //  TRIPADVISOR
 //
 //  Created by Jiahui Qi on 2017/12/7.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TwoTableViewController : UITableViewController
+@interface FourViewController : UIViewController
 
 @end
