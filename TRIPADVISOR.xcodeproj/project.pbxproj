@@ -13,6 +13,8 @@
 		9E8A599D1FD8C27100774875 /* ThreeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E8A599C1FD8C27100774875 /* ThreeTableViewController.m */; };
 		9E9CBC981FD9CD3800625A8E /* ThreeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CBC971FD9CD3800625A8E /* ThreeTableViewCell.m */; };
 		9E9CBC9B1FD9D24B00625A8E /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CBC9A1FD9D24B00625A8E /* FourViewController.m */; };
+		9E9CBC9E1FDA1D1E00625A8E /* FiveTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CBC9D1FDA1D1E00625A8E /* FiveTableViewController.m */; };
+		9E9CBCA11FDA1D3D00625A8E /* FiveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CBCA01FDA1D3D00625A8E /* FiveTableViewCell.m */; };
 		9EA890DD1FC5F3BD0031BC2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA890DC1FC5F3BD0031BC2E /* AppDelegate.m */; };
 		9EA890E01FC5F3BD0031BC2E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EA890DF1FC5F3BD0031BC2E /* ViewController.m */; };
 		9EA890E31FC5F3BD0031BC2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA890E11FC5F3BD0031BC2E /* Main.storyboard */; };
@@ -53,6 +55,10 @@
 		9E9CBC971FD9CD3800625A8E /* ThreeTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeTableViewCell.m; sourceTree = "<group>"; };
 		9E9CBC991FD9D24B00625A8E /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		9E9CBC9A1FD9D24B00625A8E /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		9E9CBC9C1FDA1D1E00625A8E /* FiveTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveTableViewController.h; sourceTree = "<group>"; };
+		9E9CBC9D1FDA1D1E00625A8E /* FiveTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveTableViewController.m; sourceTree = "<group>"; };
+		9E9CBC9F1FDA1D3D00625A8E /* FiveTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FiveTableViewCell.h; sourceTree = "<group>"; };
+		9E9CBCA01FDA1D3D00625A8E /* FiveTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FiveTableViewCell.m; sourceTree = "<group>"; };
 		9EA890D81FC5F3BD0031BC2E /* TRIPADVISOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRIPADVISOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA890DB1FC5F3BD0031BC2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9EA890DC1FC5F3BD0031BC2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +142,10 @@
 				9E9CBC991FD9D24B00625A8E /* FourViewController.h */,
 				9E9CBC9A1FD9D24B00625A8E /* FourViewController.m */,
 				9EA890E11FC5F3BD0031BC2E /* Main.storyboard */,
+				9E9CBC9F1FDA1D3D00625A8E /* FiveTableViewCell.h */,
+				9E9CBCA01FDA1D3D00625A8E /* FiveTableViewCell.m */,
+				9E9CBC9C1FDA1D1E00625A8E /* FiveTableViewController.h */,
+				9E9CBC9D1FDA1D1E00625A8E /* FiveTableViewController.m */,
 				9EA890E41FC5F3BD0031BC2E /* Assets.xcassets */,
 				9EA890E61FC5F3BD0031BC2E /* LaunchScreen.storyboard */,
 				9EA890E91FC5F3BD0031BC2E /* Info.plist */,
@@ -302,8 +312,10 @@
 				9E8A599D1FD8C27100774875 /* ThreeTableViewController.m in Sources */,
 				9E8A59971FD8C22500774875 /* TwoViewController.m in Sources */,
 				9E9CBC981FD9CD3800625A8E /* ThreeTableViewCell.m in Sources */,
+				9E9CBC9E1FDA1D1E00625A8E /* FiveTableViewController.m in Sources */,
 				9EA890DD1FC5F3BD0031BC2E /* AppDelegate.m in Sources */,
 				9E8A59911FD8C1C400774875 /* TwoCollectionViewCell.m in Sources */,
+				9E9CBCA11FDA1D3D00625A8E /* FiveTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@
 #import "TwoCollectionViewCell.h"
 #import "TwoCollectionReusableView.h"
 #import "ThreeTableViewController.h"
+#import "FiveTableViewController.h"
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 #define UIColorFromHex(hexValue) [UIColor \
